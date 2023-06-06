@@ -1,0 +1,136 @@
+.modal {
+  display: block;
+  position: absolute;
+  z-index: 200;
+  left: 200px;
+  top: 150px;
+  width: 60%;
+  height: auto;
+  overflow: auto;
+}
+
+.modal-content {
+  /* position: absolute; */
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 90%;
+  height: 80%;
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#instructions-modal {
+  background-color: #f8bbd0;
+
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #47ff9d, #ffcc33);
+  padding: 2%;
+  text-align: center;
+}
+
+#instructions-modal:hover {
+  box-shadow: 4px 4px 15px #ccc;
+  transform: scale(1.1);
+}
+
+.pushable {
+  background: lightgreen;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  margin-top: 20px;
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: rgb(3, 148, 161);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+@media only screen and (max-width: 1420px) {
+  .modal {
+    width: 70%;
+    left: 10%;
+  }
+  #instructions-modal {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .modal {
+    width: 80%;
+    left: 5%;
+  }
+  #instructions-modal {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .modal-content {
+    width: 60%;
+    height: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .modal-content {
+    width: 40%;
+    height: 40%;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-content {
+    width: 30%;
+    height: 30%;
+  }
+}
+
+#instructions-button {
+  width: 160px;
+  height: 50px;
+  box-shadow: 2px 2px 10px #ccc;
+}
+#instructions-button:hover {
+  box-shadow: 4px 4px 15px #ccc;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.close {
+  position: absolute;
+  top: 25px;
+  left: 90%;
+  color: rgb(70, 69, 69);
+  float: right;
+  width: 30px;
+  height: auto;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

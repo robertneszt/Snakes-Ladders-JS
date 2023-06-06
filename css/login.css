@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #666;
+}
+
+.selection {
+    background-color: white;
+    border: 1px black solid;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 40px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.welcome {
+    font-weight: bold;
+
+    padding-bottom: 10px;
+    ;
+}
+
+.go_button {
+    background-color: #fdb838;
+    border: #fdb838;
+    width: 250px;
+
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    box-shadow: 0 5px #999;
+    cursor: pointer;
+}
+
+.go_button:active {
+    box-shadow: 0 1px #666;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.selection .welcome {
+    font-size: 45px;
+    display: inline-block;
+
+    margin: 0 auto;
+
+}
+
+.selection .title_input_name {
+    margin: 10px auto;
+    font-size: 37px;
+    display: inline-block;
+    font-weight: 400;
+
+}
+
+.selection .title_who_first_roll {
+
+    margin: 10px auto;
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 400;
+
+}
+
+.go_button {
+    background-color: #fdb838;
+
+    border: #fdb838;
+    width: 250px;
+
+    border-radius: 40px;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    box-shadow: 0 5px #999;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.go {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    ;
+
+}
+
+.player1_name_label {
+    margin: 0 auto;
+}
+
+.player1_name {
+    width: 150px;
+    font-size: 25px;
+
+}
+
+.firstplay {
+    margin-top: 20px;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.fieldset_border {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+fieldset {
+    font-size: 25px;
+    ;
+    border: none;
+
+}
+
+legend {
+    font-weight: bold;
+    color: rgb(82, 79, 79)
+}
+
+.choose_who_play_first {
+    padding-left: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.who_first {
+    margin-left: 10px;
+}
+
+.player_name {
+
+    font-size: 25px;
+
+
+}
+
+.choose_avatar {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.player1,
+.player2 {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.player_name {
+    width: 250px;
+    margin-top: 30px;
+    background-color: white;
+    border: 5px solid white;
+}
